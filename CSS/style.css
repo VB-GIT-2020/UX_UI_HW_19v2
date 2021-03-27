@@ -34,6 +34,14 @@ ul {
 ul li {
     list-style: none;
 }
+.underline {
+    height:7px;
+    background-color:#F5620E;
+    /* width:90%;    */
+    margin:0 0 0 12%;  
+    text-align:center;
+}
+
 
 #panel, #flip {
     padding: 2px;
@@ -186,19 +194,18 @@ h2 {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img-case {
+    width: 60%;
+    height:450px;
+    padding:20px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    display:block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .25s ease;
+}
 
 
 .skillTitle {
@@ -234,6 +241,7 @@ h2 {
 .CCT {
     margin:10px;
     padding:10px;
+    height:100px;
      }
      
  .profile-text button{
