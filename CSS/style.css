@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.inline-block {
+display:inline-block;
+}
+.logo  {
+    flex: 0 1 7rem;
+    height:50px;
+    width:50px;
+}
+nav {
+    background:rgba(0, 0, 0, 0.6);
+        width:100%;
+        padding:1%;
+        height:7rem;
+        display:flex;
+        flex-direction: row;
+        color:white;        
+}
+.nav-list {
+    flex-direction: row;
+    flex:0 1 50%;
+}
+ul {    
+    width:89%;   
+    font-size:1.5rem;
+    align-items: flex-end;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul li {
+    list-style: none;
+}
+
+#panel, #flip {
+    padding: 2px;
+    text-align: center;
+    color:F5620E;
+    font-size: larger;
+    font-weight:bold;
+    background-color: #fafafad7;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 10px;
+    display: none;
+  }
+
+
+
+
+
+
+
+.heroimg { 
+    height:100%;
+    /* background-position: center; */
+    position:relative;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/HeroImg.png);
+    background-color:rgba(142, 142, 143, 0.527);
+}
+.strengths-list {
+    flex-direction:row;
+}
+
+.landing {
+    height:100vh;
+    width:100vw;
+    position: relative;
+}
+.intro {
+    position:absolute;
+    bottom: 2rem;
+    left:3rem;
+    width: 40rem;
+    padding:1.0em;
+    background-color:#23737cd2;
+    border-radius: 0.5em;
+    color:white;
+    line-height:30px;
+    font-size: 20px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    width:100%;
+}
+h2 {
+    text-align:center;
+    padding:1em;
+    font-size:40px;
+}
+.divider {
+    width:100%;
+    height:10px;
+    background-color:#23737C;
+    margin-bottom:20px; 
+}
+.quote h3 {
+    line-height:1.5em;
+    font-size:25px;
+    text-align:center;
+    padding: 20px;   
+}
+.profile {
+    width:100%;
+    padding-right:10%; 
+    padding-left:20%;
+    display:flex;
+    justify-content:center;   
+}
+.profile-pic {    
+    width:30%;
+    top:20px;
+    padding:10 10 10 40px;  
+}
+.profile-text {  
+    line-height:1.2em;
+    font-size:22px;
+    display:inline-block;
+    width:60%;
+    padding:30px 10px 50px 50px; 
+ } 
+.button {
+    background-color:orange;
+    border:none;
+    color:white;
+    text-align:center;
+    padding:15px 30px;
+    text-decoration:none;
+    font-size:20px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+.credentials h2 {
+    margin-top:75px;
+    }
+.content {
+    align-items: center;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:15px; 
+    grid-gap:20px;
+}
+.GW {    
+    width:250px;
+    padding:5px;
+    text-align:center;
+}
+.IDF {  
+    width:250px;
+    padding:5px;
+    text-align:center;
+}
+.UM {  
+    padding:5px;
+    text-align:center;
+}
+.Cornell {
+    width:250px;
+    padding:5px;
+    text-align:center;
+}
+.IIBA {
+    width:250px;
+    padding:5px;
+    text-align:center;
+}
+
+.carousel-inner {
+    display:flex; 
+    align-items: center;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:15px; 
+    grid-gap:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skillTitle {
+    width:100%;
+}
+.skillTitle .divider {
+    height:10px;
+    background-color:#23737C;
+    position:relative;  
+}
+.strength {
+    background-color: #23737C;
+    margin-top:75px;
+    padding:75px;
+}
+.strength h2 {
+    color:white;
+}
+.strength h3 {
+    color:white;
+}
+.skills {  
+    display:flex; 
+    margin: auto; 
+    padding: 20px;
+    justify-content:center;
+}
+ .myStrength {
+    text-align:center;
+    margin: 10px;
+    padding: 10px;
+    }  
+.CCT {
+    margin:10px;
+    padding:10px;
+     }
+     
+ .profile-text button{
+    padding:15px;
+    display:inline-block;
+    margin-top:5px;
+ }
+ 
+.Process {
+    text-align:center;
+    font-size:20px;
+    color:white;
+}
+
+.footer {
+    background-color:#717172;  
+    height: 200px;  
+    display:inline-block;
+    
+    width:100%;
+    color:white;
+    padding-top:20px;
+}
+.footerContents {
+    margin-top:20px;
+    margin-left:50px;
+    color:white;
+    font-size:20px;
+    padding:20px;
+}
+
+
+/* .footer ul {   
+    width:100%;    
+    vertical-align:top;
+    padding:15%;
+    } */
+.flexContainer {
+    display: flex;   
+    background-color: rgb(240, 240, 243);
+    margin: 10px;
+    padding: 10px;
+  }
+.flexItem {
+    background-color: rgb(241, 244, 248);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 250px;  
+  }
