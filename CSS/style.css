@@ -18,7 +18,8 @@ nav {
         height:7rem;
         display:flex;
         flex-direction: row;
-        color:white;        
+        color:white;   
+        
 }
 .nav-list {
     flex-direction: row;
@@ -66,7 +67,7 @@ ul li {
 
 .heroimg { 
     height:100%;
-    /* background-position: center; */
+    
     position:relative;
     background-repeat: no-repeat;
     background-position:center;
@@ -268,7 +269,7 @@ h2 {
 .footerContents {
     margin-top:20px;
     margin-left:50px;
-    color:white;
+    color:rgb(245, 241, 241);
     font-size:20px;
     padding:20px;
 }
@@ -281,7 +282,7 @@ h2 {
     } */
 .flexContainer {
     display: flex;   
-    background-color: rgb(240, 240, 243);
+    background-color: rgb(245, 245, 247);
     margin: 10px;
     padding: 10px;
   }
