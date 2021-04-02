@@ -24,6 +24,15 @@ nav {
    /* display:flex;
     flex-direction: row;*/
     color:white;
+
+    background:rgba(0, 0, 0, 0.6);
+        width:100%;
+        padding:1%;
+        height:7rem;
+        display:flex;
+        flex-direction: row;
+        color:white;   
+
         
 }
 .navbar-inverse .navbar-nav>li>a {
@@ -74,6 +83,9 @@ nav {
 
 .heroimg { 
     height:100%;
+    
+    position:relative;
+
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
@@ -425,6 +437,7 @@ footer p{
 
 }
 
+
 footer .mynav ul::after{
     content: '';
   border-bottom: 3px solid #F5620E;
@@ -448,7 +461,13 @@ footer .mynav ul::after{
     margin: 4px 2px;
     cursor: pointer;
 }
-
+.footerContents {
+    margin-top:20px;
+    margin-left:50px;
+    color:rgb(245, 241, 241);
+    font-size:20px;
+    padding:20px;
+}
  /*return to top css code*/
 
 #return-to-top {
@@ -493,3 +512,23 @@ footer .mynav ul::after{
 }
 
 /*end with return to top code*/
+
+/* .footer ul {   
+    width:100%;    
+    vertical-align:top;
+    padding:15%;
+    } */
+.flexContainer {
+    display: flex;   
+    background-color: rgb(245, 245, 247);
+    margin: 10px;
+    padding: 10px;
+  }
+.flexItem {
+    background-color: rgb(241, 244, 248);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 250px;  
+  }
+
