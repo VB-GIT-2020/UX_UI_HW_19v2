@@ -9,7 +9,7 @@
 
 }
 hr.divider {
-    border-top: 10px solid #23737C;
+    border-top: 5px solid #23737C;
 }
 .logo  {
     flex: 0 1 7rem;
@@ -140,14 +140,7 @@ footer {
     width:100%;
 }
 
-/*.about h3 {
-   
-    text-align:center;
-    padding:20px;
-}*/
-/* .credentials{
-    width:100%;
-} */
+
 
 .credentials  {
     text-align:center;
